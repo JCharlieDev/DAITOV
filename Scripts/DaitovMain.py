@@ -665,8 +665,8 @@ class IniciarActividad(ttk.Frame):
 
     def Audio1(self,nombre_archivo):
 
-        Archivo_audio="Audio\\"+nombre_archivo+".mp3"
-        Archivo_imagen="Imagen\\"+nombre_archivo+".png"
+        Archivo_audio="C://Users//MSI//Desktop//GitHub Repos//DAITOV//Resources//Audio//Dialogos//Intro//"+nombre_archivo+".mp3"
+        Archivo_imagen="C://Users//MSI//Desktop//GitHub Repos//DAITOV//Resources//Images//Imagen//"+nombre_archivo+".png"
 
 
 ##        imagen=tk.PhotoImage(file=Archivo_imagen)
@@ -954,10 +954,10 @@ class IniciarActividad(ttk.Frame):
     def secuencia(self):
 
 ##        #Saludo
-##        self.Audio1("I01")#Hola
-##        self.Audio1("I02")#Jugar
-##        self.Audio1("I03")#Vestirnos
-##        self.Audio1("I04")#Comencemos    
+        self.Audio1("I01")#Hola
+        self.Audio1("I02")#Jugar
+        self.Audio1("I03")#Vestirnos
+        self.Audio1("I04")#Comencemos
 
          
         #Abrir base de datos
@@ -1015,6 +1015,8 @@ class IniciarActividad(ttk.Frame):
                     Z_Cierre=row[10]
                     Z_NumCierres=row[11]
 
+#################################################################
+####################### Inicio de Actividad (print en pantalla)  ##########################################
 
             #Iniciar Actividad
                     
@@ -1199,7 +1201,7 @@ class IniciarActividad(ttk.Frame):
 
             #A jugar
                 
-        
+####################### Fin de de Actividad (print en pantalla)  ##########################################
 
 
 
